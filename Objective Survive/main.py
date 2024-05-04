@@ -10,6 +10,7 @@ from time import *
 
 pygame.init()
 screen = pygame.display.set_mode((screen_width,screen_height))
+pygame.display.set_caption("Objective: Survive")
 clock = pygame.time.Clock()
 
 current_level = 1
